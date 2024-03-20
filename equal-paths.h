@@ -28,5 +28,7 @@ struct Node {
  * @param root Pointer to the root of the tree to check for equal paths
  */
 bool equalPaths(Node * root);
+// helper funtion for equal paths 
+bool equalUntil(Node* node, int lenPath, int &lenPrev);
 
 #endif
